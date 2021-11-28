@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cart__section {
+  padding: 50px 10px;
+}
+
+.cart__container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+caption {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+
+table {
+  font-size: 17px;
+  border-collapse: collapse;
+  max-height: 60%;
+}
+
+th {
+  background-color: var(--orange);
+}
+
+.quantity,
+.name {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.name {
+  min-width: 200px;
+}
+
+.amount {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  min-width: 150px;
+}
+
+.total {
+  padding: 20px;
+  text-align: right;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+input {
+  width: 40px;
+  padding: 7px;
+  border: none;
+  max-width: 300px;
+}
+
+.checkout__cart {
+  border: 2px solid var(--orange);
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: 0;
+  padding: 20px;
+}
+
+.checkout__cart h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.checkout__cart p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc9c9;
+  margin-bottom: 30px;
+}
+
+.checkout__cart div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.checkout__cart textarea {
+  max-width: 300px;
+  max-height: 90px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.checkout__cart label {
+  margin-bottom: 10px;
+}
+
+.checkout__cart input {
+  border-bottom: 1px solid #000;
+  width: 95%;
+}
+
+.checkout__cart button {
+  border: none;
+  background-color: var(--black);
+  color: var(--white);
+  font-size: 20px;
+  padding: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.checkout__cart button:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+/*# sourceMappingURL=cart.css.map */
